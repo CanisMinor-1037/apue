@@ -1,3 +1,13 @@
+/**
+ * @file hole.c
+ * @author apue.3e
+ * @brief 用于创建一个具有空洞的文件
+ * @version 0.1
+ * @date 2022-07-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "apue.h"
 #include <fcntl.h>
 

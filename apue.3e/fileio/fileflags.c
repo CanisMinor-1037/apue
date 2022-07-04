@@ -1,3 +1,13 @@
+/**
+ * @file fileflags.c
+ * @author apue.3e
+ * @brief 对于指定的描述符打印文件标志
+ * @version 0.1
+ * @date 2022-07-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "apue.h"
 #include <fcntl.h>
 
