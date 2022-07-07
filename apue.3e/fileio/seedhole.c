@@ -14,6 +14,7 @@ int main(void) {
     char buf1[] = "abcdefghij";
     char buf2[] = "ABCDEFGHIJ";
     int fd;
+    write(STDOUT_FILENO, buf1, 10);
     if ((fd = creat("file.hole", FILE_MODE)) < 0) {
         err_sys("creat error");
     }

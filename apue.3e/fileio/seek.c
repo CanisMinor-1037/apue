@@ -9,10 +9,11 @@
  * 
  */
 #include "apue.h"
-
+#include <fcntl.h>
 int
 main(void)
 {
+	stderr
 	if (lseek(STDIN_FILENO, 0, SEEK_CUR) == -1)
 		printf("cannot seek\n");
 	else
