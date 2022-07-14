@@ -1,3 +1,13 @@
+/**
+ * @file changemod.c
+ * @author apue.3e
+ * @brief 修改foo和bar文件的模式
+ * @version 0.1
+ * @date 2022-07-14
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "apue.h"
 
 int
